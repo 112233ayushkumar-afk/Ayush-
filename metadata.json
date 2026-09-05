@@ -1,0 +1,6 @@
+{
+  "name": "One Edge Fitness",
+  "description": "One Edge Fitness in Sohani Patti, Buxar offers a spacious workout environment, modern equipment, supportive trainers and affordable membership options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

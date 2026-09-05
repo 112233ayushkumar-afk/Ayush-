@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #050505;
+    color: #f4f4f5;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Oswald', -apple-system, sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Professional Polish athletic gym styling */
+.text-gradient-orange {
+  background: linear-gradient(135deg, #ff9a47 0%, #F27D26 60%, #cf5d0b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gym-card {
+  background-color: #121214;
+  border: 1px solid #27272a;
+  border-radius: 0.125rem; /* rounded-sm */
+  box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.7);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gym-card:hover {
+  border-color: #F27D26;
+  box-shadow: 0 12px 28px -8px rgba(242, 125, 38, 0.18);
+  transform: translateY(-2px);
+}
+
+.gym-card-highlight {
+  background-color: #18181b;
+  border: 1px solid rgba(242, 125, 38, 0.35);
+  border-radius: 0.125rem;
+}
+
+.gym-polish-badge {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.gym-grid-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
